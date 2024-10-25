@@ -1,0 +1,14 @@
+{
+    "name": "prince/k3p4",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Prince\\K3p4\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.12",
+        "squizlabs/php_codesniffer": "3.*",
+        "phpunit/phpunit": "^11.4"
+    }
+}
